@@ -8,16 +8,16 @@ Bonus points would be awarded to participants if they can come up with an idea f
 
 As the event is online, participants will be provided with their unique id and passwords through email and their scores will be regularly updated with their id. Participants need to provide their valid email address so that the id and passwords can be easily availed to them.
 
-Event head:
+**Event head:**
 
-Aditya Pudipeddi
+Aditya Pudipeddi (@axelonet)
 
 
-CSE-CCVT
+**Organizers:**
 
-2nd year
 
 Organizers:
 Harsh Joshi			Priyanka Yadav		      Lakshika Parihar
-CSE-OSS		 	CSE-CCVT		      	      CSE-DevOps
-1st year			1st year			      1st year
+Priyanka Yadav		      
+
+Lakshika Parihar
