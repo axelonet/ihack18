@@ -34,6 +34,6 @@ As we progress in the development process of creating this website, let me make 
 
 As you can see, all the code has been divided into individual PHP files for the sake of modularity and indexing. You can find all the individual modules of code inside the [includes](includes) folder.
 
-Also, [protected ](protected) folder  inside includes [includes](includes) has the modules that can only be accessed once the user has logged in.
+Also, [protected ](includes/protected) folder  inside includes [includes](includes) has the modules that can only be accessed once the user has logged in.
 
 The main advantage of writing code in PHP is that it being server-sided, end user will not be affected in any way by the number of modules you use to achieve the final result you want.
