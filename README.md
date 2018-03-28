@@ -15,9 +15,8 @@ Aditya Pudipeddi (@axelonet)
 
 **Organizers:**
 
+Harsh Joshi
 
-Organizers:
-Harsh Joshi			Priyanka Yadav		      Lakshika Parihar
 Priyanka Yadav		      
 
 Lakshika Parihar
