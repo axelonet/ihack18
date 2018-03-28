@@ -10,7 +10,7 @@ As the event is online, participants will be provided with their unique id and p
 
 **Event head:**
 
-Aditya Pudipeddi (@axelonet)
+Aditya Pudipeddi
 
 
 **Organizers:**
@@ -20,3 +20,20 @@ Harsh Joshi
 Priyanka Yadav		      
 
 Lakshika Parihar
+
+### To-do:
+- [ ] Sidebar
+- [ ] Front page
+- [ ] Login form macro
+- [ ] Profile Page retouch
+- [ ] Backend
+
+## Notes
+
+As we progress in the development process of creating this website, let me make this documentation here to give you an idea of why I did the things that I did.
+
+As you can see, all the code has been divided into individual PHP files for the sake of modularity and indexing. You can find all the individual modules of code inside the [includes](http://github.com/axelonet/ihack18/includes) folder.
+
+Also, [protected ](http://github.com/axelonet/ihack18/includes/protected) folder  inside includes [includes](http://github.com/axelonet/ihack18/includes) has the modules that can only be accessed once the user has logged in.
+
+The main advantage of writing code in PHP is that it being server-sided, end user will not be affected in any way by the number of modules you use to achieve the final result you want.
