@@ -41,8 +41,9 @@
 window.onGoogleYoloLoad = (googleyolo) => {
   // The 'googleyolo' object is ready for use.
 };
-  
 </script>
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 <!-- END PAGE LEVEL JS -->
 
 </html>

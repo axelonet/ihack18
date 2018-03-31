@@ -10,6 +10,8 @@
           name='viewport'/>
     <meta name="keywords" content="">
     <meta name="description" content="">
+    <meta name="google-signin-client_id" content="501316990148-6vbv7jr64rhn8pkobevr7ul7effu49hd.apps.googleusercontent.com">
+
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900" rel="stylesheet">
     <!-- CSS Files -->
@@ -24,6 +26,4 @@
     <link href="assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css" rel="stylesheet"/>
     <!-- END PAGE LEVEL STYLE -->
     <style id="clock-animations"></style>
-
-
 </head>

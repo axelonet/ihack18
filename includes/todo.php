@@ -44,3 +44,7 @@
 </div>
 <button type="button" id="redirect_profile" class="btn btn-outline-secondary">Profile</button>
 <button type="button" id="redirect_level" class="btn btn-success">Level</button>
+<button type="button" id="redirect_info" class="btn btn-outline">login-info</button>
+
+
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
