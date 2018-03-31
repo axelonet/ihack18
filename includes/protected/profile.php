@@ -12,8 +12,8 @@
                     </button>
                 </div>
                 <a class="navbar-brand" id="page_header_title" href="javascript:void(0)">
-                    <i class="material-icons">insert_chart</i>
-                    Dashboard v1
+                    <i class="material-icons">home</i>
+                    Profile
                 </a>
             </div>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -763,41 +763,3 @@
         </div>
     </div>
     <!--End Content-->
-
-    <!--Begin Footer-->
-    <footer class="footer">
-        <div class="container">
-            <nav>
-                <ul class="footer-menu d-none d-sm-block">
-                    <li>
-                        <a href="javascript:void(0)">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">
-                            T&C
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">
-                            Privacy policy
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">
-                            Website
-                        </a>
-                    </li>
-                </ul>
-                <p class="copyright text-center">
-                    © <span id="writeCopyrights"></span>
-                    <a href="http://www.pvrtechstudio.com/" target="_blank">PVR Tech Studio</a>, We Design your
-                    Future!
-                </p>
-            </nav>
-        </div>
-    </footer>
-    <!--End Footer-->
-</div>
-<!--EndMain Panel-->

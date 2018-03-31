@@ -13,7 +13,7 @@
                 </div>
                 <a class="navbar-brand" id="page_header_title" href="javascript:void(0)">
                     <i class="material-icons">restore_page</i>
-                    Page with Sidebar
+                    Level (number)
                 </a>
 
             </div>
@@ -36,7 +36,7 @@
                 </ul>
                 <ul class="navbar-nav">
                     <li class="dropdown dropdown-slide nav-item d-none d-lg-block">
-                        <a href="javascript:void(0)" class="dropdown-toggle nav-link" data-toggle="dropdown">	<span class="notification">4</span>	<i class="material-icons">notifications_active</i></a>
+                        <a href="javascript:void(0)" class="dropdown-toggle nav-link" data-toggle="dropdown">	<span class="notification">2</span>	<i class="material-icons">notifications_active</i></a>
                         <ul class="dropdown-menu dropdown-menu-right notification_left">
                             <li>
                                 <div class="list-item" data-id="item-12">
@@ -153,40 +153,3 @@
         </div>
     </div>
     <!--End Content-->
-
-    <!--Begin Footer-->
-    <footer class="footer">
-        <div class="container">
-            <nav>
-                <ul class="footer-menu d-none d-sm-block">
-                    <li>
-                        <a href="javascript:void(0)">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">
-                            T&C
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">
-                            Privacy policy
-                        </a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)">
-                            Website
-                        </a>
-                    </li>
-                </ul>
-                <p class="copyright text-center">
-                    © <span id="writeCopyrights"></span>
-                    <a href="http://www.pvrtechstudio.com/" target="_blank">PVR Tech Studio</a>, We Design your Future!
-                </p>
-            </nav>
-        </div>
-    </footer>
-    <!--End Footer-->
-</div>
-<!--EndMain Panel-->

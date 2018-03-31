@@ -1,7 +1,42 @@
+<!--Begin Footer-->
+<footer class="footer">
+  <div class="container">
+    <nav>
+      <ul class="footer-menu d-none d-sm-block">
+        <li>
+          <a href="javascript:void(0)">
+                            Home
+                        </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">
+                            T&C
+                        </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">
+                            Privacy policy
+                        </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">
+                            Website
+                        </a>
+        </li>
+      </ul>
+      <p class="copyright text-center">
+        © <span id="writeCopyrights"></span>
+        Made by<span class="fa fa-bolt"></span>-heads of<a href="http://www.upescsi.in/" target="_blank"> UPES-CSI</a>
+      </p>
+    </nav>
+  </div>
+</footer>
+<!--End Footer-->
+</div>
+<!--EndMain Panel-->
 
 <!-- begin scroll to top btn -->
-<a href="javascript:void(0)" class="btn btn-icon btn-circle btn-scroll-to-top btn-sm animated invisible text-light"
-   data-color="purple" data-click="scroll-top"><i
+<a href="javascript:void(0)" class="btn btn-icon btn-circle btn-scroll-to-top btn-sm animated invisible text-light" data-color="purple" data-click="scroll-top"><i
         class="fa fa-angle-up"></i></a>
 <!-- end scroll to top btn -->
 </body>
@@ -38,10 +73,9 @@
 <script src="assets/js/pvr_lite_dashboard_v1.js"></script>
 <script src="https://smartlock.google.com/client"></script>
 <script type="text/javascript">
-window.onGoogleYoloLoad = (googleyolo) => {
-  // The 'googleyolo' object is ready for use.
-};
-  
+  window.onGoogleYoloLoad = (googleyolo) => {
+    // The 'googleyolo' object is ready for use.
+  };
 </script>
 <!-- END PAGE LEVEL JS -->
 
