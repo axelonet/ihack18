@@ -14,9 +14,12 @@
 
     <!--Begins User Section-->
     <div class="user">
+      <div class="photo">
+        <i class="material-icons">perm_identity</i>
+      </div>
       <div class="info">
         <a data-toggle="collapse" href="#pvr_user_nav" class="collapsed">
-                        <span> Hello Name Variable
+                        <span> Hello Name
                             <b class="caret"></b>
                         </span>
                 </a>
