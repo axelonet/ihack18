@@ -22,7 +22,7 @@ Priyanka Yadav
 Lakshika Parihar
 
 ### To-do:
-- [ ] Sidebar
+- [x] Sidebar
 - [ ] Front page
 - [ ] Login form macro
 - [ ] Profile Page retouch
