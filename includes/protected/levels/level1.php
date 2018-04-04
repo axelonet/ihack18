@@ -1,8 +1,8 @@
 <?php
-$img ="assets/img/cookie.png";
-$question = "clues cant help until found";
+
+$question = "ONE ONE ONE THREE THREE";
 $level = 1;
-$comment = "<!-- Download_Image -->";
+$comment = "assets\img\levels\level1.jpg";
 ?>
   <!--Begin Main Panel-->
   <div class="main-panel">
@@ -132,7 +132,24 @@ $comment = "<!-- Download_Image -->";
                           </h6>
               <div class="row">
                 <div class="col-6">
-                  <div class="box p-3"> <img src=<?php echo $img; ?> alt="Devices"></div>
+                  <div class="box p-3"> <p>
+
+<#include &ltstdio.h&gt
+  <br>
+
+int main()
+<br>{<br>
+
+int a;<br>
+
+a=F3C0+101000+2;<br>
+
+printf("%d",a);<br>
+
+return 0;<br>
+
+}<br>
+<p> <alt="Devices"></div>
                 </div>
                 <div class="col-6">
                   <div class="p-3">
@@ -140,7 +157,7 @@ $comment = "<!-- Download_Image -->";
                     <center><p><?php echo $question;?></p></center>
                     <div class="form-group">
                         <input class="form-control form-control-lg" type="text" placeholder=""><br>
-                        <center><button type="button" class="btn btn-outline-success">Success</button></center>
+                        <center><button id="level" type="button" class="btn btn-outline-success">Success</button></center>
                     </div>
                   </div>
                 </div>

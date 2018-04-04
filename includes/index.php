@@ -1,33 +1,6 @@
 <!--Begin Content-->
 <div class="content">
     <div class="row">
-      <div class="col-lg-12">
-          <div class="pvr-wrapper">
-              <div class="pvr-box horizontal-form">
-                  <h5 class="pvr-header">
-                      Inline Form
-                      <div class="pvr-box-controls">
-                          <i class="material-icons" data-box="refresh" data-effect="win8_linear">refresh</i>
-                          <i class="material-icons" data-box="fullscreen">fullscreen</i>
-                          <i class="material-icons" data-box="close">close</i>
-                      </div>
-                  </h5>
-
-                  <form class="form-inline" action="#" method="POST">
-                      <div class="form-group m-r-10">
-                          <input type="email" class="form-control" id="exampleInputEmail2"
-                                 placeholder="Enter email">
-                      </div>
-                      <div class="form-group m-r-10">
-                          <input type="password" class="form-control" id="exampleInputPassword2"
-                                 placeholder="Password">
-                      </div>
-                      <button type="button" class="btn btn-purple m-b-0 m-r-5">Login</button>
-                      <button type="button" class="btn btn-default m-b-0">Register</button>
-                  </form>
-              </div>
-          </div>
-      </div>
         <div class="col-lg-12">
             <div class="pvr-wrapper">
                 <div class="pvr-box">
@@ -44,12 +17,46 @@ The clues maybe hidden in the HTML source code or encrypted into a song or a pic
 
 <p>As the event is online, participants will be provided with their unique id and passwords through email and their scores will be regularly updated with their id. Participants need to provide their valid email address so that the id and passwords can be easily availed to them.</p></div>
                         </div>
-                        <div class="col-6 col-md-4">
-                            <div class="box p-3">.col-6 .col-md-4</div>
+                        <div class="col-6 col-md-4"><br><br><br>
+                          <div class="card mb-4">
+                              <div class="card-body">
+                                  <div class="row">
+                                      <div class="col-3">
+                                          <i class="icon-people text-primary f-s-40"></i>
+                                      </div>
+                                      <div class="col-9">
+                                          <h6 class="m-0">Users</h6>
+                                          <p class="mb-0">114 New Users</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="card mb-4">
+                              <div class="card-body ">
+                                  <div class="row">
+                                      <div class="col-3">
+                                          <i class="icon-trophy text-success f-s-40"></i>
+                                      </div>
+                                      <div class="col-9">
+                                          <h6 class="m-0">Top Scorer</h6>
+                                          <p class="mb-0">$19,887 Profit
+                                              <span class="float-right text-success"> </span>
+                                          </p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
                         </div>
                     </div>
+                    <button type="button" id="redirect_signup" class="btn btn-outline-primary">Sign-up</button>
+                    <button type="button" id="redirect_signin" class="btn btn-outline-success">Sign-in</button>
+                    <button type="button" id="redirect_leaderboard" class="btn btn-outline-warning">Leaderboard</button>
                   </div>
             </div>
+            <div class="pvr-box">
+                <h5 class="pvr-header">Rules and stuff               </h5>
+
+        </div>
         </div>
     </div>
 </div>
