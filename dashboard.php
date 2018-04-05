@@ -1,24 +1,14 @@
 <?php
 require_once 'functions/function.php';
+session_start();
 
-no_login('header');
-no_login('preloader');
-login('sidebar');
-login('level');
+if (isset($_SESSION['email'])) {
+    no_login('header');
+    no_login('preloader');
+    login('sidebar');
+    login('level');
+    no_login('footer');
+} else {
+    header('location:./logout.php');
+}
 ?>
-
-<?php
-
-no_login('footer');
-
-  // session_start();
-  // if (isset($_SESSION['email'])) {
-  //     getmodule("header");
-  //     getmodule("toolbar");?>
-
-  <?php
-  // getmodule("footer");
-  // } else {
-  //     header('location:./logout.php');
-  // }
-  ?>

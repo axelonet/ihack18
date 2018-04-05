@@ -156,8 +156,10 @@ return 0;<br>
                     <br><br><br>
                     <center><p><?php echo $question;?></p></center>
                     <div class="form-group">
-                        <input class="form-control form-control-lg" type="text" placeholder=""><br>
-                        <center><button id="level" type="button" class="btn btn-outline-success">Success</button></center>
+                      <form id="level" action="response.php" method="post">
+                        <input class="form-control form-control-lg" type="text" name="solution" placeholder=""><br>
+                        <center><button form="level" type="submit" class="btn btn-outline-success">Success</button></center>
+                      </form>
                     </div>
                   </div>
                 </div>
