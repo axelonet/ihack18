@@ -1,8 +1,7 @@
 <?php
 require_once 'functions/function.php';
-
+no_login('preloader');
 no_login('header');
-no_login('todo');
-// no_login('login');
+no_login('index');
 no_login('footer');
  ?>
