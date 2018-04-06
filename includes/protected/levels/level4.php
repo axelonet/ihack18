@@ -66,6 +66,7 @@ $comment = "assets/mp3/l4.mp3";
                 <div class="p-3">
                   <br><br><br>
                   <center><p><?php echo $question;?></p></center>
+                  <!--<?php echo $comment; ?>-->
                   <div class="form-group">
                     <form id="level" action="response.php" method="post">
                       <input class="form-control form-control-lg" type="text" name="solution" placeholder=""><br>
