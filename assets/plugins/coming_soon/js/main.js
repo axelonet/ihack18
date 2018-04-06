@@ -60,7 +60,7 @@ var currentDate = new Date();
 /**	Countdown
  *************************************************** **/
 $('#countdown').countdown({
-    date  : currentDate.addDays(3),
+    date  : 'Fri Apr 07 2018 00:00:00 GMT+0530 (IST)',
     render: function (data) {
         var el = $(this.el);
         if (data.years !== 0) {
@@ -70,10 +70,17 @@ $('#countdown').countdown({
                 .append("<div>" + this.leadingZeros(data.min, 2) + " <span>min</span></div>")
                 .append("<div>" + this.leadingZeros(data.sec, 2) + " <span>sec</span></div>");
         } else {
+          if (data.days !== 0) {
             el.empty().append("<div>" + this.leadingZeros(data.days, 2) + " <span>days</span></div>")
                 .append("<div>" + this.leadingZeros(data.hours, 2) + " <span>hrs</span></div>")
                 .append("<div>" + this.leadingZeros(data.min, 2) + " <span>min</span></div>")
                 .append("<div>" + this.leadingZeros(data.sec, 2) + " <span>sec</span></div>");
+          } else {
+            el.empty().append("<div>" + this.leadingZeros(data.hours, 2) + " <span>hrs</span></div>")
+                .append("<div>" + this.leadingZeros(data.min, 2) + " <span>min</span></div>")
+                .append("<div>" + this.leadingZeros(data.sec, 2) + " <span>sec</span></div>");
+          }
+
         }
 
     }

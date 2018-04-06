@@ -78,5 +78,8 @@
   };
 </script>
 <!-- END PAGE LEVEL JS -->
+<script src="assets/plugins/toastr/toastr.min.js"></script>
+<script src="assets/plugins/bootstrap-notify/bootstrap-notify.js" type="text/javascript"></script>
+<script src="assets/js/pvr_lite_toastr.js"></script>
 
 </html>

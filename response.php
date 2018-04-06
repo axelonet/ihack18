@@ -11,5 +11,5 @@ $solution = strtolower($row['solution']);
 if ($solution === strtolower($answer)) {
     $result = mysql_query("UPDATE `users` SET `level`= '".$level."'+1,`score` = `score`+ 50 WHERE `email`= '".$email."'") or die("Cannot connect to database!");
     $result = mysql_query("UPDATE `Progress` SET `".$level."`= CURRENT_TIMESTAMP() WHERE `email` = '".$email."'") or die("error");
-    header('location:./dashboard.php')
+    header('location:./dashboard.php');
 }
