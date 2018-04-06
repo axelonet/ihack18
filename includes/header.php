@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="assets/plugins/amcharts/export.css" type="text/css" media="all"/>
     <link href="assets/plugins/jquery-jvectormap/jquery-jvectormap.css" rel="stylesheet"/>
     <link href="assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css" rel="stylesheet"/>
+    <link href="assets/plugins/toastr/toastr.min.css" rel="stylesheet"/>
+
     <!-- END PAGE LEVEL STYLE -->
     <style id="clock-animations"></style>
 
