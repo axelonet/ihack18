@@ -1,7 +1,7 @@
 <?php
-$img ="assets/img/L6.jpg";
-$question = " CONGRATULATIONS! FOR YOUR ADVENT....BUT DON'T FORGET THAT LIES PRESENT...FOR WORDS DON'T ALWAYS HAVE A ROLE TO PLAY...EVEN NUMBERS CAN OUTWEIGH ";
-$level = 6;
+$img ="assets/img/levels/L6.jpg";
+$question = " CONGRATULATIONS! For your advent....But don't forget the lies present...for words don't always have a role to play...even numbers can outweigh";
+$level = 5;
 $comment1 = "https://www.youtube.com/watch?v=DwC6IFi6RuU";
 $comment2 = "2:12";
 ?>
@@ -40,7 +40,7 @@ $comment2 = "2:12";
               <a class="dropdown-item" href="javascript:void(0)">
                               <i class="material-icons align-middle">account_circle</i> Profile
                           </a>
-              <a href="javascript:void(0)" class="dropdown-item">
+              <a href="./logout.php" class="dropdown-item">
                               <i class="material-icons align-middle">power_settings_new</i> Log out
                           </a>
             </div>
@@ -88,5 +88,3 @@ $comment2 = "2:12";
   </div>
 </div>
 <!--End Content-->
-
-<script src="levels/levels.js"></script>

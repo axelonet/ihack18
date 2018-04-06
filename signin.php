@@ -10,12 +10,19 @@ require 'includes/protected/config.php';
             if ($row['password'] === $password) {
                 session_start();
                 $_SESSION['email'] = $email;
-                $_SESSION['name'] = $row['name'];
                 $_SESSION['registration'] = false;
+                $_SESSION['name'] = $row['name'];
                 if ($row['registration']=== 'success') {
                     $_SESSION['registration'] = true;
                 }
                 $login = mysql_query("UPDATE `users` SET `lastlogin`= CURRENT_TIMESTAMP() WHERE `email` = '".$email."'") or die("Cannot connect to database!");
                 header('location:./dashboard.php');
+            }else {
+              echo "Wrong password!";
+              header( "refresh:5;url=signin.html" );
             }
+        }
+        else {
+          echo "There was a trouble finding your account... Sign up again or contact us for more info regarding this, ";
+          header( "refresh:5;url=index.html" );
         }

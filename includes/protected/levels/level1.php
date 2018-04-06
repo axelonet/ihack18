@@ -1,8 +1,8 @@
 <?php
-
 $question = "Hex of 11133 is 2B7D <br><i> P.S: You have 3 hints in this page to help you.<i>";
 $level = 1;
-$comment = "assets\img\levels\level1.jpg";
+$img="assets/img/levels/hint1.jpg";
+$comment = "assets/img/levels/level1.jpg";
 ?>
   <!--Begin Main Panel-->
   <div class="main-panel">
@@ -36,10 +36,7 @@ $comment = "assets\img\levels\level1.jpg";
                             <i class="material-icons">account_box</i>
                         </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="javascript:void(0)">
-                                <i class="material-icons align-middle">account_circle</i> Profile
-                            </a>
-                <a href="javascript:void(0)" class="dropdown-item">
+                <a href="./logout.php" class="dropdown-item">
                                 <i class="material-icons align-middle">power_settings_new</i> Log out
                             </a>
               </div>
@@ -48,6 +45,7 @@ $comment = "assets\img\levels\level1.jpg";
         </div>
       </div>
     </nav>
+
     <!-- End Navbar -->
 
     <!--Begin Content-->
@@ -64,24 +62,7 @@ $comment = "assets\img\levels\level1.jpg";
                           </h6>
               <div class="row">
                 <div class="col-6">
-                  <div class="box p-3"> <p>
-
-#include &ltstdio.h&gt
-  <br>
-
-int main()
-<br>{<br>
-
-&nbsp; int a;<br>
-
-&nbsp; a=F3C0+101000+2;<br>
-
-&nbsp; printf("%d",a);<br>
-
-&nbsp; return 0;<br>
-
-}<br>
-<p> <alt="Devices"></div>
+                  <div class="box p-3"> <img src=<?php echo $img; ?> <alt="Devices"></div>
                 </div>
                 <div class="col-6">
                   <div class="p-3">
@@ -91,17 +72,16 @@ int main()
                       <form id="level" action="response.php" method="post">
                         <input class="form-control form-control-lg" type="text" name="solution" placeholder=""><br>
                         <center><button form="level" type="submit" class="btn btn-outline-success">Success</button></center>
+                        <!--<img src="<?php echo $comment; ?>" alt="Hint 2">  -->
                       </form>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
-
     </div>
   </div>
   <!--End Content-->

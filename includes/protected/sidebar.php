@@ -1,3 +1,8 @@
+<?php
+$name = $_SESSION['name'];
+$i = strlen($name);
+$j=0;
+ ?>
 <!--Begin Sidebar-->
 <div class="sidebar" data-color="purple" data-image="assets/img/sidebar-bg.jpg">
   <div class="sidebar-wrapper">
@@ -15,11 +20,15 @@
     <!--Begins User Section-->
     <div class="user">
       <div class="photo">
-        <i class="material-icons">perm_identity</i>
+          <img src="assets/img/avatar.png"/>
       </div>
       <div class="info">
         <a data-toggle="collapse" href="#pvr_user_nav" class="collapsed">
-                        <span> Hello Name
+                        <span> Hello <?php
+                              while (substr($name, $j, 1) != " " && $j < $i) {
+                                  echo substr($name, $j, 1);
+                                  $j++;
+                              }?>
                             <b class="caret"></b>
                         </span>
                 </a>
@@ -45,9 +54,9 @@
 
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link sub_link" href="profile.php">
+        <a class="nav-link sub_link" href="dashboard.php">
                   <i class="material-icons">home</i>
-                  <p>Profile</p>
+                  <p>Dashboard</p>
               </a>
       </li>
       <li class="nav-item">
@@ -69,7 +78,7 @@
                 </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link sub_link" href="aboutus.php">
+        <a class="nav-link sub_link" href="aboutus.html">
                     <i class="material-icons">description</i>
                     <p>About Us</p>
                 </a>

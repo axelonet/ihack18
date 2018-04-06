@@ -13,3 +13,6 @@ if ($solution === strtolower($answer)) {
     $result = mysql_query("UPDATE `Progress` SET `".$level."`= CURRENT_TIMESTAMP() WHERE `email` = '".$email."'") or die("error");
     header('location:./dashboard.php');
 }
+else {
+  header('location:./dashboard.php');
+}

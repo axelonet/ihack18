@@ -1,11 +1,14 @@
 <?php
 require 'includes/protected/config.php';
+session_start();
 $que = mysql_query("SELECT * FROM users ORDER BY score DESC LIMIT 10");
 require 'functions/function.php';
 no_login("header");
-
+if (isset($_SESSION['email'])) {
+  header('location:./lleaderboard.php');
+}
 ?>
-        <div class="col-12 col-sm-6 col-md-8">
+        <div class="col-md-9 order-md-2">
             <div class="pvr-wrapper">
                 <div class="pvr-box">
                     <h5 class="pvr-header">

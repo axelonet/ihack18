@@ -15,8 +15,12 @@ if ($user_count==0) {
 
     if ($sql && $sql1) {
         session_start();
-        $_SESSION['name'] = $name;
+        $_SESSION['email'] = $Email;
         $_SESSION['success'] = true;
+        $_SESSION['name'] = $name;
         header('location:./dashboard.php');
       }
+}else {
+  echo "User already exists! <br> You'll be automatically redirected to homepage.";
+  header( "refresh:5;url=index.html" );
 }

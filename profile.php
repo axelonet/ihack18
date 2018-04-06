@@ -1,5 +1,6 @@
 <?php
 require_once 'functions/function.php';
+session_start();
 
 no_login('header');
 no_login('preloader');

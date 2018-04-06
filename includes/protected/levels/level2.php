@@ -1,8 +1,8 @@
 <?php
-$img ="assets/img/level2.png";
-$question = "An angry professoe, the misguided confessor";
+$img ="assets/img/levels/level2.png";
+$question = "An angry professor, the misguided confessor";
 $level = 2;
-$comment = "<!-- Download_Image -->";
+$comment = "http://www.cs.umd.edu/~waa/414-F11/IntroToCrypto.pdf";
 ?>
   <!--Begin Main Panel-->
   <div class="main-panel">
@@ -35,11 +35,9 @@ $comment = "<!-- Download_Image -->";
               <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="material-icons">account_box</i>
                         </a>
+                        <!--<?php echo $comment; ?> -->
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="javascript:void(0)">
-                                <i class="material-icons align-middle">account_circle</i> Profile
-                            </a>
-                <a href="javascript:void(0)" class="dropdown-item">
+                <a href="./logout.php" class="dropdown-item">
                                 <i class="material-icons align-middle">power_settings_new</i> Log out
                             </a>
               </div>
@@ -80,11 +78,9 @@ $comment = "<!-- Download_Image -->";
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
-
     </div>
   </div>
   <!--End Content-->

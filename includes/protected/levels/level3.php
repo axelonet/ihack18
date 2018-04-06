@@ -1,12 +1,12 @@
 <?php
-$img ="assets/img/5hints.jpg";
+$img ="assets/img/levels/5hints.jpg";
 $question = "!WYSIWYG";
 $level = 3;
-$comment1 = "assets\img\levels\19.jpg";
-$comment2 = "assets\img\levels\14.jpg";
-$comment3 = "assets\img\levels\1.jpg";
-$comment4 = "assets\img\levels\16.jpg";
-$comment5 = "assets\img\levels\5.jpg";
+$comment1 = "assets/img/levels/19.jpg";
+$comment2 = "assets/img/levels/14.jpg";
+$comment3 = "assets/img/levels/1.jpg";
+$comment4 = "assets/img/levels/16.jpg";
+$comment5 = "assets/img/levels/5.jpg";
 ?>
 <!--Begin Main Panel-->
 <div class="main-panel">
@@ -24,13 +24,14 @@ $comment5 = "assets\img\levels\5.jpg";
                   <i class="material-icons">restore_page</i>
                   Level <?php echo $level ?>
               </a>
-
+        <!--<?php echo $comment5; ?>-->
       </div>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-bar burger-lines"></span>
               <span class="navbar-toggler-bar burger-lines"></span>
               <span class="navbar-toggler-bar burger-lines"></span>
           </button>
+          <!--<?php echo $comment1; ?>-->
       <div class="collapse navbar-collapse justify-content-end">
         <ul class="navbar-nav">
           <li class="dropdown dropdown-slide nav-item d-none d-lg-block">
@@ -40,12 +41,9 @@ $comment5 = "assets\img\levels\5.jpg";
                           <i class="material-icons">account_box</i>
                       </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="javascript:void(0)">
-                              <i class="material-icons align-middle">account_circle</i> Profile
-                          </a>
-              <a href="javascript:void(0)" class="dropdown-item">
+                <a href="./logout.php" class="dropdown-item">
                               <i class="material-icons align-middle">power_settings_new</i> Log out
-                          </a>
+                          </a>               <!--<?php echo $comment2; ?>-->
             </div>
           </li>
         </ul>
@@ -58,7 +56,7 @@ $comment5 = "assets\img\levels\5.jpg";
   <!--Begin Content-->
   <div class="content">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-12"> <!--<?php echo $comment3; ?>-->
         <div class="pvr-wrapper">
           <div class="pvr-box">
             <h1 style="text-allign:center;">
@@ -75,7 +73,7 @@ $comment5 = "assets\img\levels\5.jpg";
                 <div class="p-3">
                   <br><br><br>
                   <center><p><?php echo $question;?></p></center>
-                  <div class="form-group">
+                  <div class="form-group">   <!--<?php echo $comment4; ?>-->
                     <form id="level" action="response.php" method="post">
                       <input class="form-control form-control-lg" type="text" name="solution" placeholder=""><br>
                       <center><button form="level" type="submit" class="btn btn-outline-success">Success</button></center>

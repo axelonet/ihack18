@@ -1,5 +1,9 @@
 <?php
 require 'protected/config.php';
+if(isset($_SESSION['email']))
+{
+  header('location:./dashboard.php');
+}
 $result = mysql_query("SELECT COUNT(name) FROM users");
 $que = mysql_query("SELECT * FROM users ORDER BY score DESC LIMIT 1");
 $top = mysql_fetch_array($que);
@@ -86,16 +90,14 @@ $users = mysql_fetch_array($result);
                           <h5 class="mb-0">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
                                                aria-expanded="true" aria-controls="collapseOne">
-                                                Collapsible Group Item #1
+                                                Rule #1
                                             </a>
                                         </h5>
                         </div>
 
                         <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
                           <div class="card-block">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                            on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-                            beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            The game play involves getting to the next level by using any of the means of encryption and decryption. So keep yourself focussed and try to solve more and more questions in order to reach at the top
                           </div>
                         </div>
                       </div>
@@ -104,15 +106,18 @@ $users = mysql_fetch_array($result);
                           <h5 class="mb-0">
                                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
                                                href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                Collapsible Group Item #2
+                                                Rule #2
                                             </a>
                                         </h5>
                         </div>
                         <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
                           <div class="card-block">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                            on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-                            beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+There are mainly 3 ways by which you can get across levels
+<ul>
+  <li> Entering the answer in the text box</li>
+  <li> Changing the URL in the address bar</li>
+  <li> Clicking on various objects on the page</li>
+</ul>
                           </div>
                         </div>
                       </div>
@@ -122,15 +127,13 @@ $users = mysql_fetch_array($result);
                                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
                                                href="#collapseThree" aria-expanded="false"
                                                aria-controls="collapseThree">
-                                                Collapsible Group Item #3
+                                                Rule #3
                                             </a>
                                         </h5>
                         </div>
                         <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
                           <div class="card-block">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                            on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-                            beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+Answers are not case sensitive. In case the answer contains more than one word, do not forget to include spaces. We try to cover most possible answers to a level, but do try out different combinations of answers if we might have missed some out (we're human after all). Answers with multiple words will contain a space between them, so do take care of the same.
                           </div>
                         </div>
                       </div>
@@ -140,15 +143,13 @@ $users = mysql_fetch_array($result);
                                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
                                                href="#collapsefour" aria-expanded="false"
                                                aria-controls="collapseThree">
-                                                Collapsible Group Item #4
+                                                Rule #4
                                             </a>
                                         </h5>
                         </div>
                         <div id="collapsefour" class="collapse" role="tabpanel" aria-labelledby="headingfour">
                           <div class="card-block">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                            on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-                            beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            Correct answers will directly take you to next level and if the same page comes back, then you need to replan your strategy for the level.
                           </div>
                         </div>
                       </div>
@@ -158,36 +159,17 @@ $users = mysql_fetch_array($result);
                                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
                                                href="#collapsefive" aria-expanded="false"
                                                aria-controls="collapsefive">
-                                                Collapsible Group Item #5
+                                                Rule #5
                                             </a>
                                         </h5>
                         </div>
                         <div id="collapsefive" class="collapse" role="tabpanel" aria-labelledby="headingThree">
                           <div class="card-block">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                            on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-                            beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                          </div>
+This rule could be a happy news for all, because we have not made any restriction on the number of trials or answers to be given for any particular questions.
+                            </div>
                         </div>
                       </div>
-                      <div class="card">
-                        <div class="card-header" role="tab" id="headingsix">
-                          <h5 class="mb-0">
-                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
-                                               href="#collapsesix" aria-expanded="false"
-                                               aria-controls="collapsesix">
-                                                Collapsible Group Item #6
-                                            </a>
-                                        </h5>
-                        </div>
-                        <div id="collapsesix" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-                          <div class="card-block">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                            on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-                            beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                          </div>
-                        </div>
-                      </div>
+
                     </div>
                   </div>
                 </div>
@@ -210,24 +192,27 @@ $users = mysql_fetch_array($result);
                       </ul>
                       <div class="tab-content" id="myTabContent">
                         <div role="tabpanel" class="tab-pane fade active show" id="home" aria-labelledby="home-tab" aria-expanded="true">
-                          <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher
-                            synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+<p>If you find that our replies to your queries are arriving with a bit delay then it's not because we don't like your screen name or might have met you in real-life and disliked your personality. It is simply because the sheer number of comments that need to be moderated makes it impossible to give an immediate response</p>
+<p>Please do not share the answers on personal blogs/websites or other forums. It is quite possible that the other person may finish before you</p>
+<p>You may contact us at ihack18@icloud.com when you get desperate (only towards the fag end of the game)</p>
+<p>Do try your best, and be a little patient as far as hints are concerned</p>
                         </div>
                         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab" aria-expanded="false">
-                          <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo
-                            booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente
-                            labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus
-                            tattooed echo park.</p>
-                        </div>
-                        <div class="tab-pane fade" id="dropdown1" role="tabpanel" aria-labelledby="dropdown1-tab" aria-expanded="false">
-                          <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore
-                            carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog.
-                            Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
-                        </div>
-                        <div class="tab-pane fade" id="dropdown2" role="tabpanel" aria-labelledby="dropdown2-tab">
-                          <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high
-                            life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf
-                            salvia freegan, sartorial keffiyeh echo park vegan.</p>
+<p> All levels will require some amount of lateral thinking combined with some help from google.
+<p>Images can also be reverse-searched using Google/Tineye
+<p>Usually, the clues for each level can be found in:
+  <ul>
+    <li>Page Title</li>
+    <li>URL</li>
+    <li>Pictures on the level (and their names!)</li>
+    <li>Page source. (Right click and use View Page Source)</li>
+  </ul>
+<p>Some amount of binary (.doc, .jpg etc.) download/manipulation may be required to get the hint to next level</p>
+<p>Most probable answer could also be a most probable mistake.</p>
+<p>As there are no restriction on the number of attempts on any question, so keep trying all the answers you get in your mind.</p>
+
+
+</p>
                         </div>
                       </div>
                     </div>
@@ -235,8 +220,6 @@ $users = mysql_fetch_array($result);
                 </div>
               </div>
             </div>
-
-
           </div>
         </div>
       </div>

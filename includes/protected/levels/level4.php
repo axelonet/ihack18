@@ -1,6 +1,6 @@
 <?php
-$img ="assets/img/level4.jpg";
-$question = "For role models never fail to aim....It's time for model number to ";
+$img ="assets/img/levels/level4.jpg";
+$question = "When brain begins to toddle, the wise looks for the title ";
 $level = 4;
 $comment = "assets/mp3/l4.mp3";
 ?>
@@ -36,10 +36,7 @@ $comment = "assets/mp3/l4.mp3";
                           <i class="material-icons">account_box</i>
                       </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="javascript:void(0)">
-                              <i class="material-icons align-middle">account_circle</i> Profile
-                          </a>
-              <a href="javascript:void(0)" class="dropdown-item">
+              <a href="./logout.php" class="dropdown-item">
                               <i class="material-icons align-middle">power_settings_new</i> Log out
                           </a>
             </div>
@@ -87,5 +84,3 @@ $comment = "assets/mp3/l4.mp3";
   </div>
 </div>
 <!--End Content-->
-
-<script src="levels/levels.js"></script>

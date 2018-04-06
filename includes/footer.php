@@ -4,22 +4,12 @@
     <nav>
       <ul class="footer-menu d-none d-sm-block">
         <li>
-          <a href="javascript:void(0)">
+          <a href="./">
                             Home
                         </a>
         </li>
         <li>
-          <a href="javascript:void(0)">
-                            T&C
-                        </a>
-        </li>
-        <li>
-          <a href="javascript:void(0)">
-                            Privacy policy
-                        </a>
-        </li>
-        <li>
-          <a href="javascript:void(0)">
+          <a href="http://upescsi.in">
                             Website
                         </a>
         </li>

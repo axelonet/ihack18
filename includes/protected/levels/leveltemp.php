@@ -39,7 +39,7 @@ $comment = "<!-- Download_Image -->";
                 <a class="dropdown-item" href="javascript:void(0)">
                                 <i class="material-icons align-middle">account_circle</i> Profile
                             </a>
-                <a href="javascript:void(0)" class="dropdown-item">
+                <a href="./logout.php" class="dropdown-item">
                                 <i class="material-icons align-middle">power_settings_new</i> Log out
                             </a>
               </div>
@@ -87,5 +87,3 @@ $comment = "<!-- Download_Image -->";
     </div>
   </div>
   <!--End Content-->
-
-  <script src="levels/levels.js"></script>
